@@ -1,6 +1,3 @@
-# limar_services
-Base de datos para Servicios Limar
-
 # Parcial 1: Despliegue de Base de Datos y Modelo Relacional (Servicios LiMar)
 
 Este repositorio contiene la solución práctica para el Parcial No. 1 de la asignatura **Bases de Datos (750006-C)** de la **Universidad del Valle**. Aquí se detalla el proceso de despliegue de los contenedores mediante Docker y el diseño físico del modelo relacional para el sistema de turnos de Servicios LiMar.
