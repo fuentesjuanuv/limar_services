@@ -14,7 +14,7 @@ Para inicializar el entorno aislado y limpio, se ejecutaron los siguientes coman
 Se levantó el motor de la base de datos con las credenciales asignadas en el examen y el nombre del servicio personalizado:
 
 ```powershell
-- docker run --name limar_service -e POSTGRES_USER=ulimar -e POSTGRES_PASSWORD=ex4men_db -p 5432:5432 -d postgres:14
+docker run --name limar_service -e POSTGRES_USER=ulimar -e POSTGRES_PASSWORD=ex4men_db -p 5432:5432 -d postgres:14
 ```
 
 ### Paso 2: Contenedor de pgAdmin 4
