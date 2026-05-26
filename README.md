@@ -31,7 +31,7 @@ Tras conectar pgAdmin al contenedor limar_service y crear la base de datos llama
 *Nota: Se implementó la palabra dedicada SERIAL para habilitar llaves primarias autoincrementables y se aplicó una restricción ON DELETE CASCADE para asegurar la integridad referencial.*
 
 ### Paso 2: Instrucciones del Lenguaje de Manipulación de Datos (DML)
-Se insertaron estos 10 registros de prueba en las tablas con las necesidades de control de franjas horarias y condiciones especiales de Servicios LiMar:
+Se insertaron 10 registros de prueba en las tablas con las necesidades de control de franjas horarias y condiciones especiales de Servicios LiMar:
 
 ### Paso 3: Consultas de comprobación
 Comprobamos que se hayan insertado los registros en las tablas correctamente usando:
