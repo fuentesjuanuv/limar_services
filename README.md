@@ -37,7 +37,7 @@ CREATE TABLE Usuario (
     nombre VARCHAR(100) NOT NULL,
     apellido VARCHAR(100) NOT NULL,
     tipo_usuario VARCHAR(50) NOT NULL, -- 'Cliente', 'Empleado', 'Proveedor'
-    condiciones VARCHAR(150),          -- Registra condiciones especiales
+    condicion_especial VARCHAR(150),   -- Registra condiciones especiales
     ciudad_id INT NOT NULL,
     codigo_postal VARCHAR(20)
 );
@@ -52,7 +52,7 @@ CREATE TABLE Turno (
     fecha DATE NOT NULL,
     hora_inicio TIME NOT NULL,
     hora_fin TIME NOT NULL,
-    estado VARCHAR(50) NOT NULL,       -- 'Asignado', 'Atendido', 'Cancelado'
+    estado VARCHAR(50) NOT NULL,      -- 'Asignado', 'Atendido', 'Cancelado'
     CONSTRAINT fk_usuario_turno FOREIGN KEY (usuario_id) REFERENCES Usuario(usuario_id) ON DELETE CASCADE
 );
 ```
